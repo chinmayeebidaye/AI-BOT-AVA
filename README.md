@@ -9,3 +9,5 @@ AVA would be a voice assitive robot for differently abled people.
 
 - create environment: python -m venv venv (no need already created environment)
 - activate enviornment: .\venv\Scripts\activate
+
+- To run the full program just simply run main.py.
