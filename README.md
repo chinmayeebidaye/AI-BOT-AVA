@@ -11,3 +11,6 @@ AVA would be a voice assitive robot for differently abled people.
 - activate enviornment: .\venv\Scripts\activate
 
 - To run the full program just simply run main.py.
+- Create .gitignore
+- add "/venv" I'm .gitignore file @everyone
+   
