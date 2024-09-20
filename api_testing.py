@@ -84,7 +84,7 @@ def main():
                 # Convert the response to speech
                 speak_text(answer)
 
-            # Optionally, you could ask if the user wants to continue or stop
+            # # Optionally, you could ask if the user wants to continue or stop
             continue_listening = input("Type 'stop' to stop listening or press Enter to continue...").strip().lower()
             if continue_listening == 'stop':
                 print("Stopping. Type 'Hey Ava' to start again.")
