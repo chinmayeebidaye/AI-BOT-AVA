@@ -108,7 +108,7 @@ def handle_command(command):
         start_object_detection()
     elif "stop object detection" in command:
         stop_object_detection()
-    elif "stop" in command or "terminate" in command or "exit" in command:
+    elif "stop" in command or "terminate" in command or "exit" in command or "Bye" in command:
         terminate_program()
     else:
         # If it's not a command, handle it as a question to Ollama
