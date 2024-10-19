@@ -5,8 +5,8 @@ import cv2
 model = YOLO('yolov8n.pt')  # 'n' for nano (small and fast model)
 
 # Load the video
-cap = cv2.VideoCapture(0)
-# cap = cv2.VideoCapture("people-detection.py")
+# cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture("people-detection.mp4")
 
 while cap.isOpened():
     ret, frame = cap.read()

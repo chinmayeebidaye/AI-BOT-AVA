@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 venv/
 get-pip.py
+=======
+.venv/
+venv/
+>>>>>>> 3ae2c238664bcb680e341f343580b0640f0e4720
