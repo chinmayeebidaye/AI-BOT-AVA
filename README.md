@@ -1,16 +1,34 @@
-# AI-BOT-AVA
+# AVA — Assistive Voice Assistant Hardware Robot
 
-This repo is official repo for BE Major project
-AVA would be a voice assitive robot for differently abled people.
+AVA is a voice-assistive robot designed to bridge the communication gap between 
+disabled and non-disabled individuals. It combines **sign language detection** 
+with **NLP** to interpret signed input and generate natural spoken/text responses, 
+paired with a **hardware robot** that uses **face and object detection** (YOLOv8) 
+to recognize and engage with people in its environment.
 
-- Download: https://ollama.com/download/windows
-- cmd (admin) : ollama run llama3
-- Terminal: pip install ollama
+This project was built as a BE Major Project with the goal of making everyday 
+communication more accessible for people who use sign language.
 
-- create environment: python -m venv venv (no need already created environment)
-- activate enviornment: .\venv\Scripts\activate
+## Features
+- Real-time sign language detection and interpretation
+- NLP-based response generation for natural conversation
+- Face/object detection using YOLOv8 for environment awareness
+- Voice-assistive hardware robot integration
 
-- To run the full program just simply run main.py.
-- Create .gitignore
-- add "/venv" in .gitignore file @everyone
-   
+## Tech Stack
+- Python
+- YOLOv8 (object/face detection)
+- Ollama (LLaMA 3) for local LLM inference
+- NLP for language processing
+
+## Setup
+
+- Download Ollama: https://ollama.com/download/windows
+- Run the model: `ollama run llama3` (in an admin terminal)
+- Install the Ollama Python package: `pip install ollama`
+- Create a virtual environment: `python -m venv venv`
+- Activate it: `.\venv\Scripts\activate`
+- Install dependencies: `pip install -r requirements.txt`
+- Run the full program: `python main.py`
+
+*Note: add `/venv` to `.gitignore` before committing.*
