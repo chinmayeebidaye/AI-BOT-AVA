@@ -1,4 +1,4 @@
-# AVA — Assistive Voice Assistant Hardware Robot
+# AVA - Assistive Voice Assistant Hardware Robot
 
 AVA is a voice-assistive robot designed to bridge the communication gap between 
 disabled and non-disabled individuals. It combines **sign language detection** 
